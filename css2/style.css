@@ -36,3 +36,38 @@ section {
 span {
     color: var(--main-color);
 }
+
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px; /* varsayılan font boyutunu ayarlama */
+    }
+    
+    .navbar {
+        display: none; /* Menüyü mobilde gizle */
+    }
+
+    #menu-icon {
+        display: block; /* Menü simgesini mobilde göster */
+    }
+
+    section {
+        padding: 3rem 5%;
+    }
+
+    .home-content {
+        text-align: center; /* Mobilde metni ortala */
+    }
+
+    .home-sci {
+        bottom: 1rem;
+    }
+
+    .about, .education, .skills, .contact {
+        text-align: center;
+    }
+
+    .about-img, .education-box, .skills-box {
+        margin: 0 auto; /* Kutuları merkezde hizala */
+    }
+}

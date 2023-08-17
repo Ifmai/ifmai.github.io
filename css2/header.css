@@ -9,6 +9,11 @@
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    transition: .3s;
+}
+
+.header.sticky {
+    background: var(--bg-color);
 }
 
 .logo {
@@ -22,7 +27,7 @@
     color: var(--text-color);
     font-weight: 500;
     margin-left: 3.5rem;
-    transition: .3s;
+    transition: .1s;
 }
 
 
